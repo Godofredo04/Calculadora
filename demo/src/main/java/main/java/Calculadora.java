@@ -106,4 +106,9 @@ public class Calculadora {
 		}
 		return resultado;
 	}
+
+	public static int media(int num1, int num2) {
+		int resultado = (num1 + num2) / 2;
+		return resultado;
+	}
 }
