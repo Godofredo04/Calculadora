@@ -111,4 +111,9 @@ public class Calculadora {
 		int resultado = (num1 + num2) / 2;
 		return resultado;
 	}
+
+	public static int multiplicacion_de_3(int num1, int num2, int num3) {
+		int resultado = num1 * num2 * num3;
+		return resultado;
+	}
 }
