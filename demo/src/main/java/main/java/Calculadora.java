@@ -98,4 +98,17 @@ public class Calculadora {
 		return resultado;
 
 	}
+
+	public static int potencia(int num1, int num2) {
+		int resultado = 1;
+		for(int i = 0; i < num2; i++) {
+			resultado = (int) Math.pow(num1, num2);
+		}
+		return resultado;
+	}
+
+	public static int media(int num1, int num2) {
+		int resultado = (num1 + num2) / 2;
+		return resultado;
+	}
 }
